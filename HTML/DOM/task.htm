@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Validation</title>
+    </head>
+    <body style="background-color:powderblue;">
+        <center><h1 font-size="60px;">Validation</h1></center>
+        <hr></p></p></p>
+        <table align="center" border="1px" cellpadding="10px" width="800px">
+        <form>
+            <tr>
+                <td>
+                    <label><b>Name:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Name" pattern="^[a-zA-Z][a-zA-Z0-9.,$;]+$" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Contact number:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="tel" placeholder="Contact number" pattern="^\d{10}$" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Email:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Email"required>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                        <button type="submit">submit</button>
+                        <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

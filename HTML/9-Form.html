@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1 font-size="60px;">JOB DETAILS</h1></center>
+    <hr>
+    <table align="center" border="1px" cellpadding="10px" width="800px">
+        <form>
+            <tr>
+                <td>
+                    <label><b>Job Title:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="text" required>
+                </td>
+            </tr>
+            <tr>                
+                <td>
+                    <label><b>Description:&nbsp;</b></label>
+                </td>
+                <td>
+                    <textarea cols="20" rows="3"></textarea>
+                    <p><b>Brief Description should have atmost 500 characters</b></p>
+                </td>                
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Company Name:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Company Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Contact number:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="tel" placeholder="Contact number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Contact person:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Contact person">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>work status:&nbsp;</b></label>
+                </td>
+                <td>
+                    <label>
+                        <input type="radio" name="work status"/>Full Time
+                        <input type="radio" name="work status"/>Part time
+                        <input type="radio" name="work status"/>per Dim
+                        <input type="radio" name="work status"/>Others
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Salary:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="tel">
+                    <select>
+                        <option value="US dollar">US dollar</option>
+                        <option value="Indian Ruppee">Indian Ruppee</option>
+                        <option value="Cripto">Cripto</option>
+                    </select>
+                    <select>
+                        <option value="Yearly">Yearly</option>
+                        <option value="Monthly">Monthly</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Experience:&nbsp;</b></label>
+                </td>
+                <td>
+                    <input type="number" placeholder="In Year">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                        <button type="submit">submit</button>
+                        <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </form>                                                                                                 
+    </table>
+</body>
+</html>

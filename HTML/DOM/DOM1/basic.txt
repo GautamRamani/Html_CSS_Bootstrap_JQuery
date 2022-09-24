@@ -1,0 +1,24 @@
+The Document Object:-
+
+When an HTML document is loaded into a web browser, it becomes a document object.
+
+The document object is the root node of the HTML document.
+
+The document object is a property of the window object.
+
+The document object is accessed with: window.document or just document
+
+window is a object inside the document and document also is a object   
+
+extra:-
+
+Camelcase is a naming convention for writing file or object names using compounded or joined words with at least of those words beginning in a capital letter. Camelcase is used in programming language to name different files and functions without violating the naming laws of the underlying language.
+
+Camelcase is also known as medial capitals and Pascal case
+
+ex:-toUpperCase() ,toLowerCase(), toString(),setTimeout(),setInterval()
+
+
+What is the difference between span and div in HTML?
+
+The span tag is used for the grouping of inline elements & this tag does not make any visual change by itself. span is very similar to the div tag, but div is a block-level tag and span is an inline tag. Example 1: In this example, we simply use span tag with style in HTML.
